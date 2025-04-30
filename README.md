@@ -4,7 +4,7 @@
 
 In this assignment, you will develop a simple web application using Python and Flask, containerize it with Docker, manage services with Docker Compose, implement a health check, set up a GitHub Actions pipeline to test your application, and version control everything with Git and GitHub. This project aims to provide hands-on experience with key DevOps tools and practices.
 
-### Tasks
+## Tasks
 1. Develop the Web Application
 
 Create a Flask application with the following routes:
@@ -82,14 +82,14 @@ README.md.
 The repository should demonstrate a working Flask application with a persistent visit counter and a functional health check.
 The GitHub Actions pipeline should successfully test the application on pull requests.
 
-### Requirements
+## Requirements
 
 The application must run correctly within Docker containers.
 The visit counter must persist across container restarts, thanks to the Redis volume.
 The health check must accurately reflect the connection status to Redis.
 The GitHub Actions pipeline must pass, indicating that the application starts correctly and the health check succeeds.
 
-### Resources
+## Resources
 
 Docker Documentation
 Docker Compose Documentation
@@ -97,7 +97,7 @@ Flask Documentation
 Redis-py Documentation
 GitHub Actions Documentation
 
-### Example File Structure
+## Example File Structure
 project/
 ├── .github/
 │   └── workflows/
